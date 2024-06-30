@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    grid-template-rows: 100%;
+    grid-template-columns: 100%;
+}
+body{
+    background-color: grey;
+    display: grid;justify-content: center;
+}
+div{
+    background-color: rgba(31,31,33,255);
+    border-radius: 10px;
+    height: 90%;
+    width: 95%;
+    margin: auto;
+}
+next-route-announcer{
+    display: none;
+}
