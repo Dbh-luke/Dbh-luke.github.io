@@ -2,4 +2,5 @@
 - Fix svg to allow color change
 - Change details folder arrow to >
 - Fix responsive design
-- Make it so selected page keeps page highlighted
+- add searchbar icon
+- add invite icon

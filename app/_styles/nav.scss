@@ -1,10 +1,10 @@
 nav{
-    height: 92%;
-    width: 20%;
+    height: 96%;
+    width: 90%;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 30px 40% 40% auto;
-    margin: 2%;
+    margin: auto;
     color: white;
     #logo{
         display: grid;
@@ -46,22 +46,25 @@ nav{
         grid-template-rows: repeat(8, 1fr);
         list-style-position: inside;
         margin-top: 5%;
-        height: 95%;
-        li {
-            height: fit-content;
-            margin: auto;
-            margin-left: 10px;
-            padding: 5px;
-            border-radius: 10px;
-            width: 90%;
-            position: relative;
-            &:hover{
-                background-color: #3b3b3d;
-                cursor: pointer;
-            }
-            a{
-                color: white;
-                text-decoration: none;    
+        margin-bottom: 5%;
+        height: 90%;
+        a{
+            color: white;
+            text-decoration: none;    
+            li {
+                height: fit-content;
+                margin: auto;
+                margin-left: 10px;
+                padding: 0.25rem;
+                padding-bottom: 0.5rem;
+                border-radius: 10px;
+                width: 90%;
+                height: 63%;
+                position: relative;
+                &:hover{
+                    background-color: #3b3b3d;
+                    cursor: pointer;
+                }
                 p{
                     position: absolute;
                     left: 80%;
@@ -73,6 +76,10 @@ nav{
                     padding: 2px 7px;
                 }    
             }
+        }
+        #active{
+            background-color: #3b3b3d;
+
         }
     }
     #fileExplorer{
@@ -111,6 +118,7 @@ nav{
             width: fit-content;
             height: fit-content;
             margin: auto;
+            margin-left: 10px;
         }
         a{
             width: fit-content;
@@ -124,16 +132,19 @@ nav{
             grid-column-end: 3;
             grid-column-start: 1;
             height: 10px;
-            margin-top: 12px;
             background-color: #676769;
             display: grid;
             position: relative;
-        #innerProgress{
-            background-color: white;
-            width: 92%;
-            position: absolute;
-            left: 0;
-        }
+            width: 96%;
+            margin: auto;
+            margin-top: 12px;
+            border-radius: 10px;
+            #innerProgress{
+                background-color: white;
+                width: 92%;
+                position: absolute;
+                left: 0;
+            }
         }
         p:last-child{
             grid-row-end: 4;

@@ -3,8 +3,13 @@ import Nav from "../../_components/nav"
 
 export default function Home() {
   return (
-    <main>
-      <Nav />
-    </main>
+    <>
+      <Nav num={1}/>
+      <section className={styles.main}>
+        <div>
+
+        </div>
+      </section>
+    </>
   );
 }

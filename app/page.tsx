@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Login() {
   return (
-    <main className={styles.main}>
+    <div className={styles.main}>
         <div>
             <h1>Login</h1>
             <form action="login" method="post">
@@ -14,6 +14,6 @@ export default function Login() {
                 </Link>
             </form>
         </div>
-    </main>
+    </div>
   );
 }
