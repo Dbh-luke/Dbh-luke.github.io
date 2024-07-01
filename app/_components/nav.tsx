@@ -37,8 +37,8 @@ export default function Nav(pageNum:page){
                     {pageNum.num != 4 ? <Link href="/sharedfiles"><li>Shared with me</li></Link> : <Link href="/sharedfiles"><li id='active'>Shared with me</li></Link>}
                     {pageNum.num != 5 ? <Link href="/deletedfiles"><li>Deleted files</li></Link> : <Link href="/deletedfiles"><li id='active'>Deleted files</li></Link>}
                     {pageNum.num != 6 ? <Link href="/design"><li>Design</li></Link> : <Link href="/design"><li id='active'>Design</li></Link>}
-                    {pageNum.num != 7 ? <Link href="/notifications"><li>Notifications</li></Link> : <Link href="/notifications"><li id='active'>Notifications</li></Link>}
-                    {pageNum.num != 8 ? <Link href="/settings"><li>Settings</li></Link> : <Link href="/settings"><li id='active'>Settings</li></Link>}
+                    {pageNum.num != 7 ? <Link href="/notifications"><li>Notifications <p>8</p></li></Link> : <Link href="/notifications"><li id='active'>Notifications <p>8</p></li></Link>}
+                    {pageNum.num != 8 ? <Link href="/General"><li>Settings</li></Link> : <Link href="/settings"><li id='active'>Settings</li></Link>}
                 </ul>
                 <div id="fileExplorer">
                     <p>File Browser</p>

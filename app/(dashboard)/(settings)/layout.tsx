@@ -1,8 +1,17 @@
 import styles from "./page.module.scss";
 import Nav from "../../_components/nav";
 import Image from "next/image";
+import type { Metadata } from "next";
 
-export default function Settings() {
+export const metadata: Metadata = {
+  title: "Settings"
+};
+
+export default function Settings({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <>
       <Nav num={8}/>
@@ -26,17 +35,18 @@ export default function Settings() {
             </form>
           </div>
           <div id="subNav">
-
+            <ul>
+              <li>General</li>
+              <li>Security</li>
+              <li>Billing</li>
+              <li>Notifications</li>
+              <li>Apps</li>
+              <li>Branding</li>
+              <li>Refer a friend</li>
+              <li>Sharing</li>
+            </ul>
           </div>
-          <div id="message">
-
-          </div>
-          <div id="basics">
-
-          </div>
-          <div id="devices">
-
-          </div>
+          {children}
         </div>
       </section>
     </>

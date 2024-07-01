@@ -2,5 +2,8 @@
 - Fix svg to allow color change
 - Change details folder arrow to >
 - Fix responsive design
-- add searchbar icon
+- add search bar icon
 - add invite icon
+- Set up prof pic, add verification icon
+- fix login
+- add functionality to vert ellipsis
