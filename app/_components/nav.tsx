@@ -1,7 +1,6 @@
 import '../_styles/nav.scss'
 import Link from 'next/link';
 import Image from 'next/image';
-import { Interface } from 'readline';
 
 interface page{
     num: number

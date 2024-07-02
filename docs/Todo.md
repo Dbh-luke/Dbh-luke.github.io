@@ -2,8 +2,11 @@
 - Fix svg to allow color change
 - Change details folder arrow to >
 - Fix responsive design
-- add search bar icon
-- add invite icon
+- add search bar icon and functionality
+- add invite icon / functionality
 - Set up prof pic, add verification icon
 - fix login
 - add functionality to vert ellipsis
+- add #active to subNav in settings
+- fix subnav
+- check my page against picture and make measurements.

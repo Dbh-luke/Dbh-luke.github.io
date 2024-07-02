@@ -34,18 +34,6 @@ export default function Settings({
               />
             </form>
           </div>
-          <div id="subNav">
-            <ul>
-              <li>General</li>
-              <li>Security</li>
-              <li>Billing</li>
-              <li>Notifications</li>
-              <li>Apps</li>
-              <li>Branding</li>
-              <li>Refer a friend</li>
-              <li>Sharing</li>
-            </ul>
-          </div>
           {children}
         </div>
       </section>
