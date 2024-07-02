@@ -7,6 +7,7 @@
 - Set up prof pic, add verification icon
 - fix login
 - add functionality to vert ellipsis
-- add #active to subNav in settings
 - fix subnav
 - check my page against picture and make measurements.
+- add functionality to message buttons
+- add very secure icon to password
