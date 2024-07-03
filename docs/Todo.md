@@ -11,3 +11,4 @@
 - check my page against picture and make measurements.
 - add functionality to message buttons
 - add very secure icon to password
+- finish browser / device section
