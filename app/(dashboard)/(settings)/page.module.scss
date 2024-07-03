@@ -26,7 +26,33 @@
             form{
                 display: grid;
                 grid-template-columns: 3fr 1fr 1fr 1fr;
-                grid-template-rows: 1fr;
+                grid-template-rows: 100%;
+                label{
+                    position: relative;
+                    display: grid;
+                    justify-items: center;
+                    align-items: center;
+                    > input{
+                        box-sizing: border-box;
+                        padding-left: 1.5rem;
+                        margin: auto;
+                        border: 1px solid grey;
+                        color:grey
+                    }
+                    span{
+                        height: 1.5rem;
+                        width: 1.5rem;
+                        padding: 4px;
+                        position: absolute;
+                        box-sizing: border-box;
+                        top: 50%;
+                        left: 11%;
+                        transform: translateY(-50%);
+                        svg{
+                            color: grey;
+                        }
+                    }
+                }
                 input{
                     height: 60%;
                     width: 80%;
@@ -45,15 +71,53 @@
                     background-color: #202022;
                     color: white;
                     border: 1px solid grey;
+                    &:nth-child(2){
+                        display: grid;
+                        grid-template-columns: 0.5fr 1fr;
+                        justify-items: center;
+                        align-items: center;
+                        grid-template-rows: 100%; 
+                    }
+                    svg{
+                        height: 12.5px;
+                        width: 12.5px;
+                    }
                     &:nth-child(3){
                         background-color: #4372dd;
                         border: 1px solid #4372dd;
                     }
                 }
-                img{
-                    height: 60%;
-                    width: 60%;
-                    margin: auto;
+                div{
+                    position: relative;
+                    grid-template-columns: 100%;
+                    grid-template-rows: 100%;
+                    justify-items: center;
+                    align-items: center;
+                    img{
+                        height: 40px;
+                        width: 40px;
+                        margin: auto;
+                        border-radius: 50%;
+                    }
+                    div{
+                        position: absolute;
+                        height: 15px;
+                        width: 15px;
+                        top: 60%;
+                        left: 60%;
+                        color: #4372dd;
+                        span{
+                            background-color: white;
+                            height: 40%;
+                            width: 40%;
+                        }
+                        svg{
+                            position: absolute;
+                            height: 15px;
+                            width: 15px;
+                            color: #4372dd;
+                        }
+                    }
                 }
             }
         }
