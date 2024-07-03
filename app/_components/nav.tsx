@@ -1,7 +1,7 @@
 import '../_styles/nav.scss'
 import Link from 'next/link';
 import Image from 'next/image';
-
+  
 interface page{
     num: number
 }
@@ -21,7 +21,7 @@ export default function Nav(pageNum:page){
                     <Link href="/">
                         <p>v4.0</p>
                         <Image 
-                        src="/external.svg"
+                        src="/external.png"
                         width={10}
                         height={10}
                         id='external'

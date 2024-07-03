@@ -1,15 +1,14 @@
+- Set up fontawesome
 - Add logos to nav list
-- Fix svg to allow color change
+- Change icons to fontAwesome
 - Change details folder arrow to >
 - Fix responsive design
 - add search bar icon and functionality
 - add invite icon / functionality
 - Set up prof pic, add verification icon
-- fix login
 - add functionality to vert ellipsis
-- fix subnav
 - check my page against picture and make measurements.
 - add functionality to message buttons
 - add very secure icon to password
-- finish browser / device section
 - add trash can functions
+- fix apple logo
