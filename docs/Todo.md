@@ -12,3 +12,4 @@
 - add functionality to message buttons
 - add very secure icon to password
 - finish browser / device section
+- add trash can functions
