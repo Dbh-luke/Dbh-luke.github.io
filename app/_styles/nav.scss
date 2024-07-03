@@ -25,15 +25,16 @@ nav{
             display: grid;
             grid-template-rows: 100%;
             grid-template-columns: 1fr 1fr;
-            color: white;
+            color: grey;
             text-decoration: none;
             font-size: 0.75rem;
             width: fit-content;
-            #external{
-                width: 20px;
-                height: 20px;
+            justify-self: end;
+            svg{
+                width: 15px;
+                height: 15px;
                 margin: auto;
-                color: white;
+                color: grey;
                 fill: currentColor;
                 stroke: currentColor;
                 margin-left: 5px;
@@ -48,11 +49,14 @@ nav{
         margin-top: 5%;
         margin-bottom: 5%;
         height: 90%;
+        list-style: none;
         a{
             color: white;
             text-decoration: none;    
             li {
                 height: fit-content;
+                display: flex;
+                flex-direction: row;
                 margin: auto;
                 margin-left: 10px;
                 padding: 0.25rem;
@@ -61,6 +65,7 @@ nav{
                 width: 90%;
                 height: 63%;
                 position: relative;
+                align-items: center;
                 &:hover{
                     background-color: #3b3b3d;
                     cursor: pointer;
@@ -74,6 +79,11 @@ nav{
                     width: fit-content;
                     height: fit-content;
                     padding: 2px 7px;
+                }
+                svg{
+                    width: fit-content;
+                    height: fit-content;
+                    margin-right: 5px;
                 }    
             }
         }

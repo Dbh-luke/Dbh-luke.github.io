@@ -1,5 +1,3 @@
-- Set up fontawesome
-- Add logos to nav list
 - Change icons to fontAwesome
 - Change details folder arrow to >
 - Fix responsive design
