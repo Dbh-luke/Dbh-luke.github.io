@@ -10,7 +10,6 @@ import { IoTrashOutline } from "react-icons/io5";
 import { IoInvertModeSharp } from "react-icons/io5";
 import { CgNotifications } from "react-icons/cg";
 import { IoSettingsOutline } from "react-icons/io5";
-import { IoIosArrowDown } from "react-icons/io";
 
 interface page{
     num: number

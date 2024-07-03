@@ -1,7 +1,2 @@
-- Change icons to fontAwesome
 - Fix responsive design
 - check my page against picture and make measurements.
-- add functionality to message buttons
-- add very secure icon to password
-- add trash can functions
-- fix apple logo

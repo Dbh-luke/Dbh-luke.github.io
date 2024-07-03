@@ -1,6 +1,9 @@
 import SubNav from "../../../_components/subNav";
 import style from "./page.module.scss"
 import Image from "next/image";
+import { FaRegCheckCircle } from "react-icons/fa";
+import { IoTrashOutline } from "react-icons/io5";
+import { FaApple } from "react-icons/fa";
 
 export default function Security() {
     return (
@@ -33,7 +36,7 @@ export default function Security() {
                     </div>
                     <div>
                         <input type="password" name="pass" id="pass" value="Passwordplacehold" readOnly/>
-                        <p>Very secure</p>
+                        <p><FaRegCheckCircle /> Very secure</p>
                     </div>
                     <div>
                         <button>Edit</button>
@@ -89,23 +92,13 @@ export default function Security() {
                             <p>Current session</p>
                         </div>
                         <div>
-                            <Image 
-                            src="/trash.webp"
-                            width={25}
-                            height={25}
-                            alt="trash"
-                            />
+                            <IoTrashOutline />
                         </div>
                     </div>
                     <div>
                         <div>
                             <div>
-                                <Image 
-                                src="/appleIcon.jpeg"
-                                width={25}
-                                height={25}
-                                alt="Apple"
-                                />
+                                <FaApple />
                             </div>
                         </div>
                         <p>Luke's MacBook Pro</p>
@@ -122,12 +115,7 @@ export default function Security() {
                             <p>Current session</p>
                         </div>
                         <div>
-                            <Image 
-                            src="/trash.webp"
-                            width={25}
-                            height={25}
-                            alt="trash"
-                            />
+                            <IoTrashOutline />
                         </div>
                     </div>
                     <div>
@@ -155,23 +143,13 @@ export default function Security() {
                             <p>1 month ago</p>
                         </div>
                         <div>
-                            <Image 
-                            src="/trash.webp"
-                            width={25}
-                            height={25}
-                            alt="trash"
-                            />
+                            <IoTrashOutline />
                         </div>
                     </div>
                     <div>
                         <div>
                             <div>
-                                <Image 
-                                src="/appleIcon.png"
-                                width={25}
-                                height={25}
-                                alt="Apple"
-                                />
+                                <FaApple />
                             </div>
                         </div>
                         <p>Luke's MacBook Pro</p>
@@ -188,12 +166,7 @@ export default function Security() {
                             <p>1 month ago</p>
                         </div>
                         <div>
-                            <Image 
-                            src="/trash.webp"
-                            width={25}
-                            height={25}
-                            alt="trash"
-                            />
+                            <IoTrashOutline />
                         </div>
                     </div>
                 </div>
