@@ -1,8 +1,5 @@
 - Change icons to fontAwesome
 - Fix responsive design
-- add search bar icon and functionality
-- add invite icon / functionality
-- Set up prof pic, add verification icon
 - check my page against picture and make measurements.
 - add functionality to message buttons
 - add very secure icon to password
