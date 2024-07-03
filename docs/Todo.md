@@ -1,2 +1,0 @@
-- Fix responsive design
-- check my page against picture and make measurements.
